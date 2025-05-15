@@ -26,7 +26,11 @@ namespace PBO_D08
                 if (cek_NIM)
                 {
                     bool Register_Akun = UserRegister.TambahAkun();
+<<<<<<< HEAD
                     if (Register_Akun)
+=======
+                    if (Register_Akun) 
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
                     {
                         MessageBox.Show("Register Akun Berhasil", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.Close();
@@ -45,6 +49,7 @@ namespace PBO_D08
             else { MessageBox.Show("Harap Isi TextBox", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
 
         }
+<<<<<<< HEAD
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -102,5 +107,7 @@ namespace PBO_D08
         {
 
         }
+=======
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
     }
 }

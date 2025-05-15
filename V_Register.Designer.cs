@@ -31,6 +31,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             button1 = new Button();
+<<<<<<< HEAD
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -39,10 +40,13 @@
             linkLabel1 = new LinkLabel();
             button2 = new Button();
             button3 = new Button();
+=======
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             SuspendLayout();
             // 
             // textBox1
             // 
+<<<<<<< HEAD
             textBox1.Location = new Point(263, 138);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(193, 23);
@@ -148,11 +152,36 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+=======
+            textBox1.Location = new Point(265, 144);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(265, 215);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(100, 23);
+            textBox2.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(279, 280);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             // V_Register
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+<<<<<<< HEAD
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(linkLabel1);
@@ -161,6 +190,8 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+=======
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -175,6 +206,7 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Button button1;
+<<<<<<< HEAD
         private Label label1;
         private Label label2;
         private Label label3;
@@ -183,5 +215,7 @@
         private LinkLabel linkLabel1;
         private Button button2;
         private Button button3;
+=======
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
     }
 }
