@@ -33,12 +33,22 @@
             textBox2 = new TextBox();
             label1 = new Label();
             label2 = new Label();
+<<<<<<< HEAD
+            linkLabel1 = new LinkLabel();
             label3 = new Label();
+            button2 = new Button();
+=======
+            label3 = new Label();
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             SuspendLayout();
             // 
             // button1
             // 
+<<<<<<< HEAD
+            button1.Location = new Point(315, 224);
+=======
             button1.Location = new Point(302, 239);
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -50,7 +60,11 @@
             // 
             textBox1.Location = new Point(265, 125);
             textBox1.Name = "textBox1";
+<<<<<<< HEAD
+            textBox1.Size = new Size(186, 23);
+=======
             textBox1.Size = new Size(152, 23);
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             textBox1.TabIndex = 1;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -58,7 +72,12 @@
             // 
             textBox2.Location = new Point(265, 175);
             textBox2.Name = "textBox2";
+<<<<<<< HEAD
+            textBox2.PasswordChar = '*';
+            textBox2.Size = new Size(186, 23);
+=======
             textBox2.Size = new Size(152, 23);
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             textBox2.TabIndex = 2;
             // 
             // label1
@@ -79,6 +98,40 @@
             label2.TabIndex = 4;
             label2.Text = "Password";
             // 
+<<<<<<< HEAD
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.LinkColor = Color.Black;
+            linkLabel1.Location = new Point(281, 261);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(152, 15);
+            linkLabel1.TabIndex = 6;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Belum Punya Akun/Regster";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(301, 41);
+            label3.Name = "label3";
+            label3.Size = new Size(89, 37);
+            label3.TabIndex = 7;
+            label3.Text = "Login";
+            label3.Click += label3_Click_1;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(457, 175);
+            button2.Name = "button2";
+            button2.Size = new Size(45, 23);
+            button2.TabIndex = 8;
+            button2.Text = "Show";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+=======
             // label3
             // 
             label3.AutoSize = true;
@@ -88,18 +141,29 @@
             label3.TabIndex = 5;
             label3.Text = "Register";
             label3.Click += label3_Click;
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             // 
             // V_Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+<<<<<<< HEAD
+            Controls.Add(button2);
             Controls.Add(label3);
+            Controls.Add(linkLabel1);
+=======
+            Controls.Add(label3);
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(button1);
+<<<<<<< HEAD
+            FormBorderStyle = FormBorderStyle.None;
+=======
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             Name = "V_Login";
             Text = "Form1";
             Load += Form1_Load;
@@ -114,6 +178,12 @@
         private TextBox textBox2;
         private Label label1;
         private Label label2;
+<<<<<<< HEAD
+        private LinkLabel linkLabel1;
         private Label label3;
+        private Button button2;
+=======
+        private Label label3;
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
     }
 }

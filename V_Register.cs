@@ -26,7 +26,11 @@ namespace PBO_D08
                 if (cek_NIM)
                 {
                     bool Register_Akun = UserRegister.TambahAkun();
+<<<<<<< HEAD
+                    if (Register_Akun)
+=======
                     if (Register_Akun) 
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
                     {
                         MessageBox.Show("Register Akun Berhasil", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.Close();
@@ -45,5 +49,65 @@ namespace PBO_D08
             else { MessageBox.Show("Harap Isi TextBox", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
 
         }
+<<<<<<< HEAD
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            V_Login login = new V_Login();
+            login.ShowDialog();
+            this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox2.PasswordChar == '*')
+            {
+                textBox2.PasswordChar = '\0';
+            }
+            else
+            {
+                textBox2.PasswordChar = '*';
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox3.PasswordChar == '*')
+            {
+                textBox3.PasswordChar = '\0';
+            }
+            else
+            {
+                textBox3.PasswordChar = '*';
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+=======
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
     }
 }

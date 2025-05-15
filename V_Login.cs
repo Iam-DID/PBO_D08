@@ -33,10 +33,38 @@ namespace PBO_D08
 
         private void label3_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+=======
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
             this.Hide();
             V_Register register = new V_Register();
             register.ShowDialog();
             this.Show();
         }
+<<<<<<< HEAD
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox2.PasswordChar == '*')
+            {
+                textBox2.PasswordChar = '\0';
+            }
+            else
+            {
+                textBox2.PasswordChar = '*';
+            }
+        }
+=======
+>>>>>>> d7707809e0890f2fe485eadd49ef6f0e0bba7912
     }
 }
